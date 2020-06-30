@@ -12,6 +12,11 @@ Graphic design is the paradise of individuality, eccentricity, heresy, abnormali
 
 # Simple default styles for headings
 
+{% highlight python %}
+def print(test):
+    print(test)
+{% endhighlight %}
+
 ## Simple default styles for headings
 
 ### Simple default styles for headings

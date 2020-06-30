@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Type
-email:       ''
+title:       Tech&Health
+email:       'evrardlaurent77@gmail.com'
 description: ''
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
+url:         'https://lauevrar77.github.io' # The base hostname & protocol for your site
 twitter:     ''
 github:      ''
 instagram:   ''
