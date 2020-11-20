@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>WebApp Rendering | Pens&amp;Tech</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Il y a peu, en regardant une conférence du CEO de Netlify, j&rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
+Je me suis rendu compte qu&rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
+Un petit exemple valant souvent mieux qu&rsquo;un long discours, imaginons le point API suivant :">
+    <meta name="generator" content="Hugo 0.75.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/lauevrar77.github.io/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="WebApp Rendering" />
+<meta property="og:description" content="Il y a peu, en regardant une conférence du CEO de Netlify, j&rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
+Je me suis rendu compte qu&rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
+Un petit exemple valant souvent mieux qu&rsquo;un long discours, imaginons le point API suivant :" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="lauevrar77.github.io/posts/webapp-rendering/" />
+<meta property="article:published_time" content="2020-10-10T08:01:32+02:00" />
+<meta property="article:modified_time" content="2020-10-10T08:01:32+02:00" />
+<meta itemprop="name" content="WebApp Rendering">
+<meta itemprop="description" content="Il y a peu, en regardant une conférence du CEO de Netlify, j&rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
+Je me suis rendu compte qu&rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
+Un petit exemple valant souvent mieux qu&rsquo;un long discours, imaginons le point API suivant :">
+<meta itemprop="datePublished" content="2020-10-10T08:01:32+02:00" />
+<meta itemprop="dateModified" content="2020-10-10T08:01:32+02:00" />
+<meta itemprop="wordCount" content="932">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="WebApp Rendering"/>
+<meta name="twitter:description" content="Il y a peu, en regardant une conférence du CEO de Netlify, j&rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
+Je me suis rendu compte qu&rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
+Un petit exemple valant souvent mieux qu&rsquo;un long discours, imaginons le point API suivant :"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="lauevrar77.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Pens&amp;Tech
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=lauevrar77.github.io/lauevrar77.github.io/posts/webapp-rendering/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=lauevrar77.github.io/lauevrar77.github.io/posts/webapp-rendering/&amp;text=WebApp%20Rendering" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=lauevrar77.github.io/lauevrar77.github.io/posts/webapp-rendering/&amp;title=WebApp%20Rendering" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">WebApp Rendering</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-10-10T08:01:32+02:00">October 10, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Il y a peu, en regardant une conférence du CEO de Netlify, j&rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).</p>
+<p>Je me suis rendu compte qu&rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.</p>
+<p>Un petit exemple valant souvent mieux qu&rsquo;un long discours, imaginons le point API suivant :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_post</span>(post_id: int):
+    post: Post <span style="color:#f92672">=</span> post_repository<span style="color:#f92672">.</span>load(post_id)
+
+    comments <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> comment_id <span style="color:#f92672">in</span> post<span style="color:#f92672">.</span>comment_ids:
+        comments<span style="color:#f92672">.</span>append(comment_repository<span style="color:#f92672">.</span>load(comment_id))
+
+
+    <span style="color:#66d9ef">return</span> {
+        <span style="color:#e6db74">&#34;post_id&#34;</span>: post<span style="color:#f92672">.</span>post_id,
+        <span style="color:#e6db74">&#34;title&#34;</span>: post<span style="color:#f92672">.</span>title,
+        <span style="color:#e6db74">&#34;content&#34;</span>: post<span style="color:#f92672">.</span>content,
+        <span style="color:#e6db74">&#34;comments&#34;</span>: [
+            {
+                <span style="color:#e6db74">&#34;author&#34;</span>: comment<span style="color:#f92672">.</span>author,
+                <span style="color:#e6db74">&#34;text&#34;</span>: comment<span style="color:#f92672">.</span>text,
+                <span style="color:#e6db74">&#34;timestamp&#34;</span>: comment<span style="color:#f92672">.</span>timestamp
+            }
+            <span style="color:#66d9ef">for</span> comment <span style="color:#f92672">in</span> comments
+        ]
+    }
+</code></pre></div><p>Ainsi, à moins qu&rsquo;une modification ne soit faite sur le Post, ce code retournera toujours la même structure. Hors, si pendant un temps les données d&rsquo;un Post sont fréquemment modifiées, elles ne le sont pas éternellement. Pire, les données sont probablement bien plus souvent lues que modifiées.</p>
+<p>Il semblerait donc que tout code ressemblant de prêt ou de loin à celui-ci augmente la pression sur la base de données utilisée (un nombre conséquent de requêtes pouvant être effectuées) et ne fait que consommer sans cesse des cycles CPU pour un contenu qui est par essence statique. Ces cycles, sans y paraitre, obligent l&rsquo;entreprise à utiliser des serveurs de capacité plus importante ou encore à en utiliser plus. Outre l&rsquo;évident impact économique, de ce gaspillage énergétique, un impact écologique est également relevé.</p>
+<p>Je reconnais être le premier à tomber dans ce piège (peut être même suis-je le seul ?) mais pour éviter tout lynchage en place publique, intéressons nous plutôt aux moyens de corriger cette erreur de design.</p>
+<p>La première solution que j&rsquo;aborderai est simple. À chaque modification de notre Post, on en fait le rendering et on sauve ce format en base de données pour une utilisation future. Voici ce que cela donnerait :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">on_post_modified</span>(post: Post):
+    comments <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> comment_id <span style="color:#f92672">in</span> post<span style="color:#f92672">.</span>comment_ids:
+        comments<span style="color:#f92672">.</span>append(comment_repository<span style="color:#f92672">.</span>load(comment_id))
+
+
+    rendered_post <span style="color:#f92672">=</span> {
+        <span style="color:#e6db74">&#34;post_id&#34;</span>: post<span style="color:#f92672">.</span>post_id,
+        <span style="color:#e6db74">&#34;title&#34;</span>: post<span style="color:#f92672">.</span>title,
+        <span style="color:#e6db74">&#34;content&#34;</span>: post<span style="color:#f92672">.</span>content,
+        <span style="color:#e6db74">&#34;comments&#34;</span>: [
+            {
+                <span style="color:#e6db74">&#34;author&#34;</span>: comment<span style="color:#f92672">.</span>author,
+                <span style="color:#e6db74">&#34;text&#34;</span>: comment<span style="color:#f92672">.</span>text,
+                <span style="color:#e6db74">&#34;timestamp&#34;</span>: comment<span style="color:#f92672">.</span>timestamp
+            }
+            <span style="color:#66d9ef">for</span> comment <span style="color:#f92672">in</span> comments
+        ]
+    }
+
+    rendered_post_table<span style="color:#f92672">.</span>save(post<span style="color:#f92672">.</span>post_id, rendered_post)
+</code></pre></div><p>On suppose ici que ce code est appelé de manière événementielle à chaque modification d&rsquo;un Post. Le reste du code est assez explicite pour que je me permette de ne pas le commenter.</p>
+<p>Avec une telle mécanique mise en place, la point d&rsquo;API prend alors la forme suivante :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_post</span>(post_id: int):
+    <span style="color:#66d9ef">return</span> rendered_post_table<span style="color:#f92672">.</span>load(post_id)
+
+</code></pre></div><p>Le voilà bien simplifié n&rsquo;est-ce pas ?</p>
+<p>Cette solution a les avantages suivants :</p>
+<ul>
+<li>Aucun code de rendering n&rsquo;est exécuté lors de la demande d&rsquo;accès aux données, elles sont fournies telle quelle;</li>
+<li>Le nombre de requêtes à la base de données est réduit à 1;</li>
+<li>On diminue la charge serveur et la pression sur la base de données;</li>
+<li>On rend plus rapide le retour des données pour l&rsquo;utilisateur.</li>
+</ul>
+<p>Tout ceci semble donc optimal. Cependant, cette solution ne fait selon moi que la moitié du chemin.
+En effet, si le contenu est statique, pourquoi le stocker dans une base de données ? Cette manière de faire demande deux connexions réseaux. La première entre le client et l&rsquo;application et la seconde entre l&rsquo;application et la base de données. Ce faisant, nous ne diminuons pas notre charge serveur autant que nous le pourrions.</p>
+<p>La seconde solution que je propose est donc de générer ces données statiques sous forme de fichier et d&rsquo;utiliser votre application pour les servir sous cette forme.</p>
+<p>Pour ce qui est de la génération des fichiers, bonne nouvelle, le code de la méthode événementielle ne doit pas être modifié. Il vous suffit d&rsquo;écrire le fichier sur disque (ou sur Amazon S3 ?) dans la méthode <code>save</code> de l&rsquo;object <code>rendered_post_table</code>.</p>
+<p>Ensuite, afin de servir ces fichiers statiques, utilisez les capacités de votre framework web de servir des fichiers statiques (ils le proposent presque tous). Mieux encore, pourquoi ne pas servir ces fichiers avec votre serveur Nginx ?</p>
+<p>Cette solution a les avantages de la précédente qu&rsquo;elle combine avec ceux-ci :</p>
+<ul>
+<li>Une seule connexion réseau est effectuée;</li>
+<li>La base de données ne subit pas de requêtes;</li>
+<li>Vous ne devez pas écrire de code applicatif pour &ldquo;servir&rdquo; les fichiers générés;</li>
+<li>Le retour des données aux utilisateurs est encore plus rapide et plus léger.</li>
+</ul>
+<p>Lorsque j&rsquo;ai parlé de cette idée avec un senior developper, il m&rsquo;a toutefois mentionné les désavantages suivants :</p>
+<ul>
+<li>De la complexité accidentelle est introduite (Keep It Simple And Stupid);</li>
+<li>On perd un peu des attributs de testabilité;</li>
+</ul>
+<p>Si je comprends chacun de ces possibles désavantages, je ne suis pas forcément d&rsquo;accord. En effet :</p>
+<ul>
+<li>Le fait que stocker les données dans une base de données et de les render pour les fournir n&rsquo;est selon moi pas &ldquo;plus simple&rdquo; que de servir statiquement des fichiers statiques; La solution est plus simple parce qu&rsquo;elle est plus simple en ça qu&rsquo;elle est plus commune. Autrement, je la trouve plus complexe, plus de code doit êtr écrit, testé, vérifié et peut finalement créer des instabilités;</li>
+<li>Les attributs de testabilité ne sont selon moi pas perdus car il est possible de tester que le fichier généré a bien été écrit et contient les données appropriées. Et dans le cas d&rsquo;un upload vers Amazon S3, la requête vers ce prestataire peut elle aussi être testée.</li>
+</ul>
+<p>Ainsi, savoir si la seconde solution vaut selon vous la peine d&rsquo;être mise en place est une question de choix. Les avantages et les inconvénients de sa mise en place doivent être pesé pour votre situation  particulière. Elle reste cependant et selon moi la plus logique et la plus économiquement et écologiquement avisée.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="lauevrar77.github.io" >
+    &copy;  Pens&Tech 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/lauevrar77.github.io/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
