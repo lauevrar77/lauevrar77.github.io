@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pens&amp;Tech</title>
-    <link>lauevrar77.github.io/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 02 Jan 2021 12:51:32 +0200</lastBuildDate><atom:link href="lauevrar77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 12:51:32 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>L’appauvrissement social par l’immédiateté</title>
-      <link>lauevrar77.github.io/posts/pauvrete-immediat/</link>
+      <link>/posts/pauvrete-immediat/</link>
       <pubDate>Sat, 02 Jan 2021 12:51:32 +0200</pubDate>
       
-      <guid>lauevrar77.github.io/posts/pauvrete-immediat/</guid>
+      <guid>/posts/pauvrete-immediat/</guid>
       <description>Commencer par enfoncer les portes ouvertes: De nos jours, tout va de plus en plus vite. En 1 minute, je peux écrire un Tweet qui sera reçu par un développeur à l’autre bout du monde. En 280 caractères, je pourrais lui exposer un problème auquel il tentera de répondre, dans l’immédiat et avec le texte le plus court possible.
 Mon postulat dans cet article est que cette possibilité de réponse instantanée à absolument tout dégrade nos relations sociales.</description>
     </item>
     
     <item>
       <title>WebApp Rendering</title>
-      <link>lauevrar77.github.io/posts/webapp-rendering/</link>
+      <link>/posts/webapp-rendering/</link>
       <pubDate>Sat, 10 Oct 2020 08:01:32 +0200</pubDate>
       
-      <guid>lauevrar77.github.io/posts/webapp-rendering/</guid>
+      <guid>/posts/webapp-rendering/</guid>
       <description>Il y a peu, en regardant une conférence du CEO de Netlify, j&amp;rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
 Je me suis rendu compte qu&amp;rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
 Un petit exemple valant souvent mieux qu&amp;rsquo;un long discours, imaginons le point API suivant :</description>
