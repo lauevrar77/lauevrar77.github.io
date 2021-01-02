@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-01-02T13:20:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/google-cadvisor/</loc>
+    <lastmod>2021-01-02T13:20:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/lectures/</loc>
+    <lastmod>2021-01-02T13:20:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-02T13:20:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/</loc>
+    <lastmod>2021-01-02T13:20:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/articles/</loc>
     <lastmod>2021-01-02T12:51:32+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2021-01-02T12:51:32+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/pauvrete-immediat/</loc>
-    <lastmod>2021-01-02T12:51:32+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-01-02T12:51:32+02:00</lastmod>
   </url>
   
@@ -29,16 +44,6 @@
   
   <url>
     <loc>/readings/how-to-improve-docker-image-size-with-layers/</loc>
-    <lastmod>2021-01-02T08:34:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/lectures/</loc>
-    <lastmod>2021-01-02T08:34:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/readings/</loc>
     <lastmod>2021-01-02T08:34:13+01:00</lastmod>
   </url>
   

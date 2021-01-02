@@ -6,7 +6,17 @@
     <description>Recent content on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 02 Jan 2021 12:51:32 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 13:20:02 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>google/cadvisor</title>
+      <link>/readings/google-cadvisor/</link>
+      <pubDate>Sat, 02 Jan 2021 13:20:02 +0100</pubDate>
+      
+      <guid>/readings/google-cadvisor/</guid>
+      <description>cAdvisor (Container Advisor) provides container users an understanding of the resource usage and performance characteristics of their running containers. It is a running daemon that collects, aggregates, processes, and exports information about running containers.
+https://github.com/google/cadvisor</description>
+    </item>
+    
     <item>
       <title>L’appauvrissement social par l’immédiateté</title>
       <link>/posts/pauvrete-immediat/</link>
