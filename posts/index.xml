@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 10 Oct 2020 08:01:32 +0200</lastBuildDate><atom:link href="lauevrar77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 12:51:32 +0200</lastBuildDate><atom:link href="lauevrar77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L’appauvrissement social par l’immédiateté</title>
+      <link>lauevrar77.github.io/posts/pauvrete-immediat/</link>
+      <pubDate>Sat, 02 Jan 2021 12:51:32 +0200</pubDate>
+      
+      <guid>lauevrar77.github.io/posts/pauvrete-immediat/</guid>
+      <description>Commencer par enfoncer les portes ouvertes: De nos jours, tout va de plus en plus vite. En 1 minute, je peux écrire un Tweet qui sera reçu par un développeur à l’autre bout du monde. En 280 caractères, je pourrais lui exposer un problème auquel il tentera de répondre, dans l’immédiat et avec le texte le plus court possible.
+Mon postulat dans cet article est que cette possibilité de réponse instantanée à absolument tout dégrade nos relations sociales.</description>
+    </item>
+    
     <item>
       <title>WebApp Rendering</title>
       <link>lauevrar77.github.io/posts/webapp-rendering/</link>
