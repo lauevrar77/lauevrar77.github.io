@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pens&amp;Tech</title>
+    <title>Accueil on Pens&amp;Tech</title>
     <link>/</link>
-    <description>Recent content on Pens&amp;Tech</description>
+    <description>Recent content in Accueil on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 02 Jan 2021 13:20:02 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 09:48:44 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple SSH Tweaks for Remote Developers</title>
+      <link>/readings/simple-ssh-tweaks-for-remote-developers/</link>
+      <pubDate>Sun, 03 Jan 2021 08:45:01 +0100</pubDate>
+      
+      <guid>/readings/simple-ssh-tweaks-for-remote-developers/</guid>
+      <description>Connection to &amp;lt;insert_host_here&amp;gt; closed. Do you see this message almost every day? Logging in and out of remote machines to get work done is about as common as sending email for some developers.
+https://medium.com/better-programming/simple-ssh-tweaks-for-remote-developers-4392a1409c33</description>
+    </item>
+    
     <item>
       <title>google/cadvisor</title>
       <link>/readings/google-cadvisor/</link>

@@ -17,5 +17,16 @@
 Mon postulat dans cet article est que cette possibilité de réponse instantanée à absolument tout dégrade nos relations sociales.</description>
     </item>
     
+    <item>
+      <title>WebApp Rendering</title>
+      <link>/posts/webapp-rendering/</link>
+      <pubDate>Sat, 10 Oct 2020 08:01:32 +0200</pubDate>
+      
+      <guid>/posts/webapp-rendering/</guid>
+      <description>Il y a peu, en regardant une conférence du CEO de Netlify, j&amp;rsquo;ai eu un mind blow à propos du rendering que nous mettons en place dans les applications web (API ou Graphiques).
+Je me suis rendu compte qu&amp;rsquo;à données identiques, le code de rendering exécute sans relâche les même opérations pour un contenu de sortie restant toujours identique également.
+Un petit exemple valant souvent mieux qu&amp;rsquo;un long discours, imaginons le point API suivant :</description>
+    </item>
+    
   </channel>
 </rss>
