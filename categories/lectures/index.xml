@@ -6,7 +6,27 @@
     <description>Recent content in Lectures on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 03 Jan 2021 08:45:01 +0100</lastBuildDate><atom:link href="/categories/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 06:11:24 +0100</lastBuildDate><atom:link href="/categories/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crow</title>
+      <link>/readings/crow/</link>
+      <pubDate>Tue, 05 Jan 2021 06:11:24 +0100</pubDate>
+      
+      <guid>/readings/crow/</guid>
+      <description>A demonstration of crow being used to re-execute tests every time a file is saved. Also, see other use cases. Clone this repository and cd into it.
+https://github.com/maaslalani/crow</description>
+    </item>
+    
+    <item>
+      <title>Taskgo</title>
+      <link>/readings/taskgo/</link>
+      <pubDate>Tue, 05 Jan 2021 06:10:29 +0100</pubDate>
+      
+      <guid>/readings/taskgo/</guid>
+      <description>Note: Currently the only way to install taskgo is to build from source. Make sure that you have setup go properly on your system and you have $GOPATH/bin in your $PATH variable (for linux/macOS) or environment variable for Windows.
+https://github.com/singalhimanshu/taskgo</description>
+    </item>
+    
     <item>
       <title>Simple SSH Tweaks for Remote Developers</title>
       <link>/readings/simple-ssh-tweaks-for-remote-developers/</link>
