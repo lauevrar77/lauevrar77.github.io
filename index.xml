@@ -8,6 +8,136 @@
     <language>fr</language>
     <lastBuildDate>Sun, 03 Jan 2021 09:48:44 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Rethinking Error Handling in Golang</title>
+      <link>/readings/rethinking-error-handling-in-golang/</link>
+      <pubDate>Fri, 08 Jan 2021 06:03:42 +0100</pubDate>
+      
+      <guid>/readings/rethinking-error-handling-in-golang/</guid>
+      <description>Errors are one of the most important aspects of a programming language. The way you handle errors impacts the performance of the application in many ways such as, How errors are defined in Golang is a bit different from languages like Java. In Go, errors are values.
+https://medium.com/swlh/rethinking-error-handling-in-golang-eac8160afe4</description>
+    </item>
+    
+    <item>
+      <title>The coolest things about Go Language</title>
+      <link>/readings/the-coolest-things-about-go-language/</link>
+      <pubDate>Fri, 08 Jan 2021 05:58:30 +0100</pubDate>
+      
+      <guid>/readings/the-coolest-things-about-go-language/</guid>
+      <description>Go is a relatively new language, created by Robert Griesemer, Rob Pike, and Ken Thompson at Google by 2009. It is open source, so anybody can contribute to it and propose new features. It appeared mainly to make Google’s software engineers lives easier, as an alternative to C++.
+https://medium.com/worldsensing-techblog/the-coolest-things-about-go-language-57a1c2c86a15</description>
+    </item>
+    
+    <item>
+      <title>Antilibraries, l’anti‑bibliothèque</title>
+      <link>/readings/antilibraries-l-anti-biblioth-que/</link>
+      <pubDate>Fri, 08 Jan 2021 05:51:36 +0100</pubDate>
+      
+      <guid>/readings/antilibraries-l-anti-biblioth-que/</guid>
+      <description>On est beaucoup à avoir une liste de livres qu’on voudrait lire… maaaaais qu’on a pas le temps de lire.
+https://serveur410.com/antilibraries-lanti%e2%80%91bibliotheque/</description>
+    </item>
+    
+    <item>
+      <title>Curaterz, la boite à chocolats par mail</title>
+      <link>/readings/curaterz-la-boite-chocolats-par-mail/</link>
+      <pubDate>Fri, 08 Jan 2021 05:43:44 +0100</pubDate>
+      
+      <guid>/readings/curaterz-la-boite-chocolats-par-mail/</guid>
+      <description>Je pense que pour beaucoup, une newsletter fait pensé à ça. La newsletter après avoir servi à te spammer, à t’envoyer des PDF « les 41 méthodes pour attirer plus de visiteurs sur ton blog », ou à t’envoyer des offres exclusives… sert enfin à quelque chose.
+https://serveur410.com/curaterz-la-boite-a-chocolats-par-mail/</description>
+    </item>
+    
+    <item>
+      <title>How we repurposed NPM to publish and distribute our Go binaries for internal CLI</title>
+      <link>/readings/how-we-repurposed-npm-to-publish-and-distribute-our-go-binaries-for-internal-cli/</link>
+      <pubDate>Fri, 08 Jan 2021 05:36:24 +0100</pubDate>
+      
+      <guid>/readings/how-we-repurposed-npm-to-publish-and-distribute-our-go-binaries-for-internal-cli/</guid>
+      <description>NPM provides an easy way to publish and distribute Node JS packages for both code dependencies as well as global command-line tools. This article demonstrates how it can be used to publish and distribute binaries written in GoLang We recently migrated our internal CLI tool from Node JS to Golang.
+https://medium.com/xendit-engineering/how-we-repurposed-npm-to-publish-and-distribute-our-go-binaries-for-internal-cli-23981b80911b</description>
+    </item>
+    
+    <item>
+      <title>3 Months with Elixir &amp; Phoenix</title>
+      <link>/readings/3-months-with-elixir-phoenix/</link>
+      <pubDate>Thu, 07 Jan 2021 06:28:50 +0100</pubDate>
+      
+      <guid>/readings/3-months-with-elixir-phoenix/</guid>
+      <description>One of the joys of building a brand new product is the opportunity to take a step back from the tools one has been using and evaluate new technologies and frameworks.
+https://medium.com/swlh/3-months-with-elixir-phoenix-2810f653f887</description>
+    </item>
+    
+    <item>
+      <title>How to Remember Everything You Want From Non-Fiction Books</title>
+      <link>/readings/how-to-remember-everything-you-want-from-non-fiction-books/</link>
+      <pubDate>Thu, 07 Jan 2021 06:12:54 +0100</pubDate>
+      
+      <guid>/readings/how-to-remember-everything-you-want-from-non-fiction-books/</guid>
+      <description>At age 18, I felt most school lessons were time-wasters. To save future pupil generations from what I had suffered through, I decided to change the education system. And if that wasn’t naïve enough, I assumed studying business education would get me there.
+https://medium.com/better-humans/how-to-remember-everything-you-want-from-non-fiction-books-df17096d517f</description>
+    </item>
+    
+    <item>
+      <title>Semantic Versioning 2.0.0</title>
+      <link>/readings/semantic-versioning-2-0-0/</link>
+      <pubDate>Thu, 07 Jan 2021 05:36:59 +0100</pubDate>
+      
+      <guid>/readings/semantic-versioning-2-0-0/</guid>
+      <description>Summary Given a version number MAJOR.MINOR.PATCH, increment the: MAJOR version when you make incompatible API changes, MINOR version when you add functionality in a backwards compatible manner, and PATCH version when you make backwards compatible bug fixes.
+https://semver.org/</description>
+    </item>
+    
+    <item>
+      <title>Running Helm in production: Security best practices</title>
+      <link>/readings/running-helm-in-production-security-best-practices/</link>
+      <pubDate>Wed, 06 Jan 2021 16:08:30 +0100</pubDate>
+      
+      <guid>/readings/running-helm-in-production-security-best-practices/</guid>
+      <description>Helm has become one the most popular package managers for Kubernetes. The goal of Helm is to help you manage Kubernetes applications using Charts. Helm charts are just &amp;ldquo;packages&amp;rdquo; that you can directly install in your Kubernetes cluster.
+https://engineering.bitnami.com/articles/running-helm-in-production.html</description>
+    </item>
+    
+    <item>
+      <title>Explorons WikiData</title>
+      <link>/readings/explorons-wikidata/</link>
+      <pubDate>Wed, 06 Jan 2021 16:04:00 +0100</pubDate>
+      
+      <guid>/readings/explorons-wikidata/</guid>
+      <description>Vous vous êtes toujours demandé comment connaitre les villes les plus densément peuplées de France ou comment savoir dans quelle ville sont nés le plus de joueurs de football ? C’est aujourd’hui possible grâce à WikiData.
+https://zestedesavoir.com/tutoriels/3445/explorons-wikidata/</description>
+    </item>
+    
+    <item>
+      <title>Turning the database inside-out with Apache Samza</title>
+      <link>/readings/turning-the-database-inside-out-with-apache-samza/</link>
+      <pubDate>Wed, 06 Jan 2021 06:09:28 +0100</pubDate>
+      
+      <guid>/readings/turning-the-database-inside-out-with-apache-samza/</guid>
+      <description>This is an edited and expanded transcript of a talk I gave at Strange Loop 2014. This transcript was originally published on the Confluent blog. The video recording (embedded below) has been watched over 8,000 times.
+https://martin.kleppmann.com/2015/03/04/turning-the-database-inside-out.html</description>
+    </item>
+    
+    <item>
+      <title>Anki - powerful, intelligent flashcards</title>
+      <link>/readings/anki-powerful-intelligent-flashcards/</link>
+      <pubDate>Tue, 05 Jan 2021 15:16:54 +0100</pubDate>
+      
+      <guid>/readings/anki-powerful-intelligent-flashcards/</guid>
+      <description>Anki is a program which makes remembering things easy. Because it&amp;rsquo;s a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn. Anyone who needs to remember things in their daily life can benefit from Anki.
+https://apps.ankiweb.net/</description>
+    </item>
+    
+    <item>
+      <title>Ton syndrome de l’imposteur est un formidable outil</title>
+      <link>/readings/ton-syndrome-de-l-imposteur-est-un-formidable-outil/</link>
+      <pubDate>Tue, 05 Jan 2021 09:01:02 +0100</pubDate>
+      
+      <guid>/readings/ton-syndrome-de-l-imposteur-est-un-formidable-outil/</guid>
+      <description>Ton syndrome de l’imposteur est un formidable outil pour ta carrière. Savoir l’exploiter correctement est décisif. Tu veux t’en débarrasser ? C’est la mauvaise stratégie. Il faut le comprendre, le contrôler et l’utiliser à ton avantage.
+https://www.jesuisundev.com/syndrome-imposteur/</description>
+    </item>
+    
+    <item>
       <title>Crow</title>
       <link>/readings/crow/</link>
       <pubDate>Tue, 05 Jan 2021 06:11:24 +0100</pubDate>

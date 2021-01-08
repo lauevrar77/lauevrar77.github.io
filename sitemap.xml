@@ -4,21 +4,86 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-05T06:11:24+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/readings/crow/</loc>
-    <lastmod>2021-01-05T06:11:24+01:00</lastmod>
+    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/lectures/</loc>
-    <lastmod>2021-01-05T06:11:24+01:00</lastmod>
+    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
   </url>
   
   <url>
     <loc>/readings/</loc>
+    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/rethinking-error-handling-in-golang/</loc>
+    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/the-coolest-things-about-go-language/</loc>
+    <lastmod>2021-01-08T05:58:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/antilibraries-l-anti-biblioth-que/</loc>
+    <lastmod>2021-01-08T05:51:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/curaterz-la-boite-chocolats-par-mail/</loc>
+    <lastmod>2021-01-08T05:43:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/how-we-repurposed-npm-to-publish-and-distribute-our-go-binaries-for-internal-cli/</loc>
+    <lastmod>2021-01-08T05:36:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/3-months-with-elixir-phoenix/</loc>
+    <lastmod>2021-01-07T06:28:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/how-to-remember-everything-you-want-from-non-fiction-books/</loc>
+    <lastmod>2021-01-07T06:12:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/semantic-versioning-2-0-0/</loc>
+    <lastmod>2021-01-07T05:36:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/running-helm-in-production-security-best-practices/</loc>
+    <lastmod>2021-01-06T16:08:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/explorons-wikidata/</loc>
+    <lastmod>2021-01-06T16:04:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/turning-the-database-inside-out-with-apache-samza/</loc>
+    <lastmod>2021-01-06T06:09:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/anki-powerful-intelligent-flashcards/</loc>
+    <lastmod>2021-01-05T15:16:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/ton-syndrome-de-l-imposteur-est-un-formidable-outil/</loc>
+    <lastmod>2021-01-05T09:01:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/crow/</loc>
     <lastmod>2021-01-05T06:11:24+01:00</lastmod>
   </url>
   
