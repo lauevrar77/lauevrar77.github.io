@@ -4,17 +4,52 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
+    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/lectures/</loc>
-    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
+    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
   </url>
   
   <url>
     <loc>/readings/</loc>
-    <lastmod>2021-01-08T06:03:42+01:00</lastmod>
+    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/slack-s-outage-was-the-best-thing-that-could-have-happened-to-the-company/</loc>
+    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/how-to-build-your-own-ai-personal-assistant-using-python/</loc>
+    <lastmod>2021-01-11T06:39:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/an-open-source-load-testing-tool-/</loc>
+    <lastmod>2021-01-11T06:34:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/mono-or-multi-repo-/</loc>
+    <lastmod>2021-01-11T06:24:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/6-yaml-features-most-programmers-don-t-know/</loc>
+    <lastmod>2021-01-10T10:19:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/goodbye-virtual-environments-/</loc>
+    <lastmod>2021-01-10T10:14:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/learn-about-fiber-the-new-golang-web-development-framework/</loc>
+    <lastmod>2021-01-08T08:02:31+01:00</lastmod>
   </url>
   
   <url>

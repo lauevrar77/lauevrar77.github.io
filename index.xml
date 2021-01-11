@@ -8,6 +8,76 @@
     <language>fr</language>
     <lastBuildDate>Sun, 03 Jan 2021 09:48:44 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Slack’s Outage Was the Best Thing That Could Have Happened to the Company</title>
+      <link>/readings/slack-s-outage-was-the-best-thing-that-could-have-happened-to-the-company/</link>
+      <pubDate>Mon, 11 Jan 2021 06:50:11 +0100</pubDate>
+      
+      <guid>/readings/slack-s-outage-was-the-best-thing-that-could-have-happened-to-the-company/</guid>
+      <description>When Slack started its 2021 by suffering a mass outage on the very morning most of the remote workforce revved up their computers after a long holiday break, it seemed like the ultimate business nightmare. Twitter went nuts. Virtual teams had barely reunited before being disconnected.
+https://marker.medium.com/slacks-outage-was-the-best-thing-that-could-have-happened-to-the-company-265b7b4b3254</description>
+    </item>
+    
+    <item>
+      <title>How to build your own AI personal assistant using Python</title>
+      <link>/readings/how-to-build-your-own-ai-personal-assistant-using-python/</link>
+      <pubDate>Mon, 11 Jan 2021 06:39:16 +0100</pubDate>
+      
+      <guid>/readings/how-to-build-your-own-ai-personal-assistant-using-python/</guid>
+      <description>An AI personal assistant is a piece of software that understands verbal or written commands and completes task assigned by the client. It is an example of weak AI that is it can only execute and perform quest designed by the user.
+https://towardsdatascience.com/how-to-build-your-own-ai-personal-assistant-using-python-f57247b4494b</description>
+    </item>
+    
+    <item>
+      <title>An open source load testing tool.</title>
+      <link>/readings/an-open-source-load-testing-tool-/</link>
+      <pubDate>Mon, 11 Jan 2021 06:34:34 +0100</pubDate>
+      
+      <guid>/readings/an-open-source-load-testing-tool-/</guid>
+      <description>Define user behaviour with Python code, and swarm your system with millions of simultaneous users. I&amp;rsquo;m impressed not more people talk about locust (http://locust.io/). The thing is awesome :) Shoutout too the guys from ESN :)
+https://locust.io/</description>
+    </item>
+    
+    <item>
+      <title>Mono- or Multi-repo?</title>
+      <link>/readings/mono-or-multi-repo-/</link>
+      <pubDate>Mon, 11 Jan 2021 06:24:39 +0100</pubDate>
+      
+      <guid>/readings/mono-or-multi-repo-/</guid>
+      <description>The last year or so has seen a significant increase in people discussing, and using the monorepo pattern for source control of projects.
+https://johnclarke73.medium.com/mono-or-multi-repo-6c3674142dfc</description>
+    </item>
+    
+    <item>
+      <title>6 YAML Features most programmers don’t know</title>
+      <link>/readings/6-yaml-features-most-programmers-don-t-know/</link>
+      <pubDate>Sun, 10 Jan 2021 10:19:43 +0100</pubDate>
+      
+      <guid>/readings/6-yaml-features-most-programmers-don-t-know/</guid>
+      <description>YAML is a file format commonly used for data serialization. There are a plethora of projects using YAML files for configuration, such as Docker-compose, pre-commit, TravisCI, AWS Cloudformation, ESLint, Kubernetes, Ansible, and many more. Knowing the features of YAML helps you with all of them.
+https://levelup.gitconnected.com/6-yaml-features-most-programmers-dont-know-164762343af3</description>
+    </item>
+    
+    <item>
+      <title>Goodbye Virtual Environments?</title>
+      <link>/readings/goodbye-virtual-environments-/</link>
+      <pubDate>Sun, 10 Jan 2021 10:14:38 +0100</pubDate>
+      
+      <guid>/readings/goodbye-virtual-environments-/</guid>
+      <description>If you’re a Python developer you’ve likely heard of Virtual Environments. A Virtual Environment is “a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages.”
+https://grassfedcode.medium.com/goodbye-virtual-environments-b9f8115bc2b6</description>
+    </item>
+    
+    <item>
+      <title>Learn About Fiber, the New Golang Web Development Framework</title>
+      <link>/readings/learn-about-fiber-the-new-golang-web-development-framework/</link>
+      <pubDate>Fri, 08 Jan 2021 08:02:31 +0100</pubDate>
+      
+      <guid>/readings/learn-about-fiber-the-new-golang-web-development-framework/</guid>
+      <description>This framework excites me because it is really focused on web development, which I enjoy a lot. It’s a framework inspired by the Node.js Express framework and built on top of Fasthttp. And like other frameworks, it just helps a lot with getting you started building your web applications in Go.
+https://medium.com/better-programming/learn-about-fiber-the-new-golang-web-development-framework-5e2cd81a6803</description>
+    </item>
+    
+    <item>
       <title>Rethinking Error Handling in Golang</title>
       <link>/readings/rethinking-error-handling-in-golang/</link>
       <pubDate>Fri, 08 Jan 2021 06:03:42 +0100</pubDate>
