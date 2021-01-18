@@ -6,7 +6,117 @@
     <description>Recent content in Readings on Pens&amp;Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 11 Jan 2021 06:50:11 +0100</lastBuildDate><atom:link href="/readings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jan 2021 06:26:22 +0100</lastBuildDate><atom:link href="/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WWW: What Went Wrong?</title>
+      <link>/readings/www-what-went-wrong-/</link>
+      <pubDate>Mon, 18 Jan 2021 06:26:22 +0100</pubDate>
+      
+      <guid>/readings/www-what-went-wrong-/</guid>
+      <description>The Internet sucks. This is something that pretty much everyone seems to agree on to some extent. Somewhere along the way, things went seriously awry.
+http://meta.ath0.com/2019/01/www-what-went-wrong/</description>
+    </item>
+    
+    <item>
+      <title>Augmenter le rendement de votre moulage de près de 174% !</title>
+      <link>/readings/augmenter-le-rendement-de-votre-moulage-de-pr-s-de-174-/</link>
+      <pubDate>Mon, 18 Jan 2021 05:51:48 +0100</pubDate>
+      
+      <guid>/readings/augmenter-le-rendement-de-votre-moulage-de-pr-s-de-174-/</guid>
+      <description>Une méthode révolutionnaire approuvée par ma boulangère !
+https://linuxfr.org/users/ploum/journaux/augmenter-le-rendement-de-votre-moulage-de-pres-de-174</description>
+    </item>
+    
+    <item>
+      <title>Go best practices, six years in</title>
+      <link>/readings/go-best-practices-six-years-in/</link>
+      <pubDate>Mon, 18 Jan 2021 05:48:19 +0100</pubDate>
+      
+      <guid>/readings/go-best-practices-six-years-in/</guid>
+      <description>(This article was originally a talk at QCon London 2016. Video and slides here.) In 2014, I gave a talk at the inaugural GopherCon titled Best Practices in Production Environments.
+https://peter.bourgon.org/go-best-practices-2016/</description>
+    </item>
+    
+    <item>
+      <title>20 Go Packages You Can Use in Your Next Project</title>
+      <link>/readings/20-go-packages-you-can-use-in-your-next-project/</link>
+      <pubDate>Sun, 17 Jan 2021 20:52:19 +0100</pubDate>
+      
+      <guid>/readings/20-go-packages-you-can-use-in-your-next-project/</guid>
+      <description>Go is an amazing language that you can use to build almost any kind of program. Developed in 2007, it has the ease of an interpreted language while also being fast and efficient as a compiled language. It was also built thinking about concurrency and getting advantage of the multicore machines.
+https://medium.com/vacatronics/20-go-packages-you-can-use-in-your-next-project-7515426559c0</description>
+    </item>
+    
+    <item>
+      <title>Go: Stringer Command, Efficiency Through Code Generation</title>
+      <link>/readings/go-stringer-command-efficiency-through-code-generation/</link>
+      <pubDate>Sun, 17 Jan 2021 17:26:22 +0100</pubDate>
+      
+      <guid>/readings/go-stringer-command-efficiency-through-code-generation/</guid>
+      <description>The stringer command aims to automate the creation of methods that satisfy the fmt.Stringer. It generates String() for specified types that describe them as a string. The documentation of the command provides an example I will use to study the command. Here is the case:
+https://medium.com/a-journey-with-go/go-stringer-command-efficiency-through-code-generation-df49f97f3954</description>
+    </item>
+    
+    <item>
+      <title>13 Jan 2021 – Pluralistic : Daily links from Cory Doctorow</title>
+      <link>/readings/13-jan-2021-pluralistic-daily-links-from-cory-doctorow/</link>
+      <pubDate>Sun, 17 Jan 2021 08:57:56 +0100</pubDate>
+      
+      <guid>/readings/13-jan-2021-pluralistic-daily-links-from-cory-doctorow/</guid>
+      <description>It&amp;rsquo;s been twenty years, to the day, since I published my first blog-post. I&amp;rsquo;m a blogger.
+https://pluralistic.net/2021/01/13/two-decades/</description>
+    </item>
+    
+    <item>
+      <title>Sorcerer</title>
+      <link>/readings/sorcerer/</link>
+      <pubDate>Sat, 16 Jan 2021 23:01:36 +0100</pubDate>
+      
+      <guid>/readings/sorcerer/</guid>
+      <description>In 1971, William Friedkin won a Best Director Oscar (and four more Academy Awards) with his 5th movie, “The French Connection”.
+https://meta.ATH0.com/2020/11/sorcerer/</description>
+    </item>
+    
+    <item>
+      <title>Condorcet, les réseaux sociaux et les producteurs de merde</title>
+      <link>/readings/condorcet-les-r-seaux-sociaux-et-les-producteurs-de-merde/</link>
+      <pubDate>Sat, 16 Jan 2021 08:50:40 +0100</pubDate>
+      
+      <guid>/readings/condorcet-les-r-seaux-sociaux-et-les-producteurs-de-merde/</guid>
+      <description>En 1793, au cœur de la Révolution française, la plupart des députés girondins, particulièrement les brissotins, sont arrêtés et exécutés par les Montagnards dirigés par Robespierre.
+https://ploum.net/condorcet-les-reseaux-sociaux-et-les-producteurs-de-merde/</description>
+    </item>
+    
+    <item>
+      <title>Text Summarization with GloVe Embeddings..</title>
+      <link>/readings/text-summarization-with-glove-embeddings-/</link>
+      <pubDate>Fri, 15 Jan 2021 13:58:36 +0100</pubDate>
+      
+      <guid>/readings/text-summarization-with-glove-embeddings-/</guid>
+      <description>This story is a continuation to our previous blog post, where we have discussed the basics of text summarization, the various approaches and how we implemented an encoder-decoder model(with attention) to solve the problem in hand.
+https://towardsdatascience.com/text-summarization-with-glove-embeddings-1e969ef9a452</description>
+    </item>
+    
+    <item>
+      <title>Frequently asked questions</title>
+      <link>/readings/frequently-asked-questions/</link>
+      <pubDate>Tue, 12 Jan 2021 17:04:03 +0100</pubDate>
+      
+      <guid>/readings/frequently-asked-questions/</guid>
+      <description>What is Go kit? Go kit is a collection of Go (golang) packages (libraries) that help you build robust, reliable, maintainable microservices. It was originally conceived as a toolkit to help larger (so-called modern enterprise) organizations adopt Go as an implementation language.
+https://gokit.io/faq/#architecture-and-design</description>
+    </item>
+    
+    <item>
+      <title>Slick Like Ruby, Fast Like C</title>
+      <link>/readings/slick-like-ruby-fast-like-c/</link>
+      <pubDate>Tue, 12 Jan 2021 17:03:43 +0100</pubDate>
+      
+      <guid>/readings/slick-like-ruby-fast-like-c/</guid>
+      <description>It was infatuation at first sight with Crystal, a programming language built for humans and computers. What a noble cause. Having been a fan of the beauty of the Ruby syntax, the promise of Ruby-like syntax with the speed of C was intriguing — life-altering, even.
+https://medium.com/better-programming/slick-like-ruby-fast-like-c-does-such-a-language-exist-9066fc16e6f1</description>
+    </item>
+    
     <item>
       <title>Slack’s Outage Was the Best Thing That Could Have Happened to the Company</title>
       <link>/readings/slack-s-outage-was-the-best-thing-that-could-have-happened-to-the-company/</link>

@@ -4,17 +4,72 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
+    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/lectures/</loc>
-    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
+    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>/readings/</loc>
-    <lastmod>2021-01-11T06:50:11+01:00</lastmod>
+    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/www-what-went-wrong-/</loc>
+    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/augmenter-le-rendement-de-votre-moulage-de-pr-s-de-174-/</loc>
+    <lastmod>2021-01-18T05:51:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/go-best-practices-six-years-in/</loc>
+    <lastmod>2021-01-18T05:48:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/20-go-packages-you-can-use-in-your-next-project/</loc>
+    <lastmod>2021-01-17T20:52:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/go-stringer-command-efficiency-through-code-generation/</loc>
+    <lastmod>2021-01-17T17:26:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/13-jan-2021-pluralistic-daily-links-from-cory-doctorow/</loc>
+    <lastmod>2021-01-17T08:57:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/sorcerer/</loc>
+    <lastmod>2021-01-16T23:01:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/condorcet-les-r-seaux-sociaux-et-les-producteurs-de-merde/</loc>
+    <lastmod>2021-01-16T08:50:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/text-summarization-with-glove-embeddings-/</loc>
+    <lastmod>2021-01-15T13:58:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/frequently-asked-questions/</loc>
+    <lastmod>2021-01-12T17:04:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/slick-like-ruby-fast-like-c/</loc>
+    <lastmod>2021-01-12T17:03:43+01:00</lastmod>
   </url>
   
   <url>
