@@ -4,17 +4,127 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
+    <lastmod>2021-01-29T10:05:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/decorating-go-errors/</loc>
+    <lastmod>2021-01-29T10:05:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/lectures/</loc>
-    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
+    <lastmod>2021-01-29T10:05:22+01:00</lastmod>
   </url>
   
   <url>
     <loc>/readings/</loc>
-    <lastmod>2021-01-18T06:26:22+01:00</lastmod>
+    <lastmod>2021-01-29T10:05:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/writing-web-applications/</loc>
+    <lastmod>2021-01-28T08:16:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/crash-only-software-more-than-meets-the-eye/</loc>
+    <lastmod>2021-01-27T06:01:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/ondemand-coursera/</loc>
+    <lastmod>2021-01-26T12:21:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/the-go-microservice-toolkit/</loc>
+    <lastmod>2021-01-25T06:04:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/david-dollar/</loc>
+    <lastmod>2021-01-25T05:40:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/how-to-implement-a-b-testing-using-a-kubernetes-canary-deployment/</loc>
+    <lastmod>2021-01-23T05:54:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/gb-a-project-based-build-tool-for-go/</loc>
+    <lastmod>2021-01-22T06:58:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/standard-package-layout/</loc>
+    <lastmod>2021-01-22T06:49:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/what-s-in-a-name-/</loc>
+    <lastmod>2021-01-21T06:40:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/cloudevents-0-3-release/</loc>
+    <lastmod>2021-01-20T19:17:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-/</loc>
+    <lastmod>2021-01-20T13:00:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/thockin-go-build-template/</loc>
+    <lastmod>2021-01-20T07:10:28+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/logging-v-instrumentation/</loc>
+    <lastmod>2021-01-20T07:04:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/from-15-000-database-connections-to-under-100/</loc>
+    <lastmod>2021-01-20T06:55:51+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/setting-up-a-functional-runit-service/</loc>
+    <lastmod>2021-01-20T06:41:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/go-and-the-absence-of-generics/</loc>
+    <lastmod>2021-01-19T07:48:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/moving-from-apache-thrift-to-grpc-a-perspective-from-alluxio/</loc>
+    <lastmod>2021-01-19T06:01:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/a-simple-implementation-of-filtering-logic-in-go/</loc>
+    <lastmod>2021-01-19T05:52:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/experimenting-with-rootless-docker/</loc>
+    <lastmod>2021-01-19T05:42:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/how-to-implement-docker-health-checks/</loc>
+    <lastmod>2021-01-19T05:36:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/a-theory-of-modern-go/</loc>
+    <lastmod>2021-01-18T12:50:16+01:00</lastmod>
   </url>
   
   <url>
@@ -164,6 +274,11 @@
   
   <url>
     <loc>/readings/anki-powerful-intelligent-flashcards/</loc>
+    <lastmod>2021-01-05T15:16:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/readings/powerful-intelligent-flashcards/</loc>
     <lastmod>2021-01-05T15:16:54+01:00</lastmod>
   </url>
   

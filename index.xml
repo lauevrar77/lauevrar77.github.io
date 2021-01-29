@@ -8,6 +8,225 @@
     <language>fr</language>
     <lastBuildDate>Sun, 03 Jan 2021 09:48:44 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Decorating Go Errors</title>
+      <link>/readings/decorating-go-errors/</link>
+      <pubDate>Fri, 29 Jan 2021 10:05:22 +0100</pubDate>
+      
+      <guid>/readings/decorating-go-errors/</guid>
+      <description>Go is powerful and popular — projects such as Kubernetes were implemented in Go. One interesting property of Go is that its multi-value returns capability provides a different error handling approach than other programming languages.
+https://www.spectrocloud.com/blog/decorating-go-errors/</description>
+    </item>
+    
+    <item>
+      <title>Writing Web Applications</title>
+      <link>/readings/writing-web-applications/</link>
+      <pubDate>Thu, 28 Jan 2021 08:16:54 +0100</pubDate>
+      
+      <guid>/readings/writing-web-applications/</guid>
+      <description>At present, you need to have a FreeBSD, Linux, OS X, or Windows machine to run Go. We will use $ to represent the command prompt. Install Go (see the Installation Instructions).
+https://golang.org/doc/articles/wiki/</description>
+    </item>
+    
+    <item>
+      <title>Crash-only software: More than meets the eye</title>
+      <link>/readings/crash-only-software-more-than-meets-the-eye/</link>
+      <pubDate>Wed, 27 Jan 2021 06:01:23 +0100</pubDate>
+      
+      <guid>/readings/crash-only-software-more-than-meets-the-eye/</guid>
+      <description>LWN.net is a subscriber-supported publication; we rely on subscribers to keep the entire operation going. Please help out by buying a subscription and keeping LWN on the net.
+https://lwn.net/Articles/191059/</description>
+    </item>
+    
+    <item>
+      <title>ondemand : Coursera</title>
+      <link>/readings/ondemand-coursera/</link>
+      <pubDate>Tue, 26 Jan 2021 12:21:31 +0100</pubDate>
+      
+      <guid>/readings/ondemand-coursera/</guid>
+      <description>https://www.coursera.org/learn/learning-how-to-learn/lecture/1MpwV/overlearning-choking-einstellung-and-interleaving</description>
+    </item>
+    
+    <item>
+      <title>The Go Microservice Toolkit</title>
+      <link>/readings/the-go-microservice-toolkit/</link>
+      <pubDate>Mon, 25 Jan 2021 06:04:28 +0100</pubDate>
+      
+      <guid>/readings/the-go-microservice-toolkit/</guid>
+      <description>For many years, I considered myself a language-agnostic software developer, as I always prioritized mastering the fundamentals and learning new concepts over “playing favorites” when it comes to programming languages.
+https://georgefrancisjr.medium.com/the-golang-microservice-toolkit-7521516ee4b</description>
+    </item>
+    
+    <item>
+      <title>David Dollar</title>
+      <link>/readings/david-dollar/</link>
+      <pubDate>Mon, 25 Jan 2021 05:40:09 +0100</pubDate>
+      
+      <guid>/readings/david-dollar/</guid>
+      <description>Lately I&amp;rsquo;ve noticed my web apps are getting complicated to run. My apps no longer consist of a single web process; I usually have have one or more types of background workers to run different types of jobs and a clock process to handle scheduling.
+http://blog.daviddollar.org/2011/05/06/introducing-foreman.html</description>
+    </item>
+    
+    <item>
+      <title>How to Implement A/B Testing Using a Kubernetes Canary Deployment</title>
+      <link>/readings/how-to-implement-a-b-testing-using-a-kubernetes-canary-deployment/</link>
+      <pubDate>Sat, 23 Jan 2021 05:54:53 +0100</pubDate>
+      
+      <guid>/readings/how-to-implement-a-b-testing-using-a-kubernetes-canary-deployment/</guid>
+      <description>This is a guest posting by Bob Reselman. A/B testing is the practice of running two release versions of software simultaneously and then forwarding usage to a given version according to routing configuration settings.
+https://blog.gurock.com/implement-ab-testing-using-kubernetes/</description>
+    </item>
+    
+    <item>
+      <title>gb · A project based build tool for Go</title>
+      <link>/readings/gb-a-project-based-build-tool-for-go/</link>
+      <pubDate>Fri, 22 Jan 2021 06:58:51 +0100</pubDate>
+      
+      <guid>/readings/gb-a-project-based-build-tool-for-go/</guid>
+      <description>gb progress has been slow for a long time; mainly due to personal issues. Hopefully this will improve over the coming months. There are several upcoming gb changes that may affect you.
+https://getgb.io/</description>
+    </item>
+    
+    <item>
+      <title>Standard Package Layout</title>
+      <link>/readings/standard-package-layout/</link>
+      <pubDate>Fri, 22 Jan 2021 06:49:23 +0100</pubDate>
+      
+      <guid>/readings/standard-package-layout/</guid>
+      <description>Vendoring. Generics. These are seen as big issues in the Go community but there’s another issue that’s rarely mentioned — application package layout.
+https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s in a name?</title>
+      <link>/readings/what-s-in-a-name-/</link>
+      <pubDate>Thu, 21 Jan 2021 06:40:46 +0100</pubDate>
+      
+      <guid>/readings/what-s-in-a-name-/</guid>
+      <description>Interfaces that specify just one method are usually just that function name with &amp;lsquo;er&amp;rsquo; appended to it. When an interface includes multiple methods, choose a name that accurately describes its purpose (examples: net.Conn, http.ResponseWriter, io.ReadWriter).
+https://talks.golang.org/2014/names.slide</description>
+    </item>
+    
+    <item>
+      <title>CloudEvents 0.3 Release</title>
+      <link>/readings/cloudevents-0-3-release/</link>
+      <pubDate>Wed, 20 Jan 2021 19:17:21 +0100</pubDate>
+      
+      <guid>/readings/cloudevents-0-3-release/</guid>
+      <description>Events are everywhere. However, event publishers tend to describe events differently. The lack of a common way of describing events means developers must constantly re-learn how to receive events.
+https://cloudevents.io/</description>
+    </item>
+    
+    <item>
+      <title>Building a realtime dashboard with ReactJS, Go, gRPC, and Envoy.</title>
+      <link>/readings/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-/</link>
+      <pubDate>Wed, 20 Jan 2021 13:00:19 +0100</pubDate>
+      
+      <guid>/readings/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-/</guid>
+      <description>Before we start, you can find all the code related to this article in this repository. In this article, I will be taking you through the process of building a real-time dashboard using Go, ReactJS, and gRPC.
+https://medium.com/swlh/building-a-realtime-dashboard-with-reactjs-go-grpc-and-envoy-7be155dfabfb</description>
+    </item>
+    
+    <item>
+      <title>thockin/go-build-template</title>
+      <link>/readings/thockin-go-build-template/</link>
+      <pubDate>Wed, 20 Jan 2021 07:10:28 +0100</pubDate>
+      
+      <guid>/readings/thockin-go-build-template/</guid>
+      <description>This is a skeleton project for a Go application, which captures the best build techniques I have learned to date. It uses a Makefile to drive the build (the universal API to software projects) and a Dockerfile to build a docker image.
+https://github.com/thockin/go-build-template</description>
+    </item>
+    
+    <item>
+      <title>Logging v. instrumentation</title>
+      <link>/readings/logging-v-instrumentation/</link>
+      <pubDate>Wed, 20 Jan 2021 07:04:59 +0100</pubDate>
+      
+      <guid>/readings/logging-v-instrumentation/</guid>
+      <description>Logging and instrumentation are two perennially hot topics in software development generally, and seem to be enjoying a certain renaissance in the context of microservices particularly. And I see quite a lot of confusion on the topic.
+http://peter.bourgon.org/blog/2016/02/07/logging-v-instrumentation.html</description>
+    </item>
+    
+    <item>
+      <title>From 15,000 Database Connections to Under 100</title>
+      <link>/readings/from-15-000-database-connections-to-under-100/</link>
+      <pubDate>Wed, 20 Jan 2021 06:55:51 +0100</pubDate>
+      
+      <guid>/readings/from-15-000-database-connections-to-under-100/</guid>
+      <description>I could not help but smile when I heard the question. Software engineers asking about a company’s tech debt is the equivalent of asking about a credit score. It’s their way of gauging a company’s questionable past and what baggage they’re carrying.
+https://medium.com/better-programming/from-15-000-database-connections-to-under-100-dfd34062da4c</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Functional runit Service</title>
+      <link>/readings/setting-up-a-functional-runit-service/</link>
+      <pubDate>Wed, 20 Jan 2021 06:41:58 +0100</pubDate>
+      
+      <guid>/readings/setting-up-a-functional-runit-service/</guid>
+      <description>I came across runit a few years ago and I was really amazed how clean it was to set up a process and how effective this service supervision scheme was. It is based on a directory structure and once you get a hang of it, it is easy to set up services using the runit scheme.
+https://medium.com/100-days-of-linux/setting-up-a-functional-runit-service-be75b5bc692c</description>
+    </item>
+    
+    <item>
+      <title>Go and the absence of generics</title>
+      <link>/readings/go-and-the-absence-of-generics/</link>
+      <pubDate>Tue, 19 Jan 2021 07:48:05 +0100</pubDate>
+      
+      <guid>/readings/go-and-the-absence-of-generics/</guid>
+      <description>Providing ways to deal with types essentially as incoming parameters and operating with those rather than hard-coded types. The reason why Go functions so well &amp;ldquo;without generics&amp;rdquo; is that it has half of them, #1 above.
+https://www.reddit.com/r/golang/comments/khdjq5/go_and_the_absence_of_generics/</description>
+    </item>
+    
+    <item>
+      <title>Moving From Apache Thrift to gRPC: A Perspective From Alluxio</title>
+      <link>/readings/moving-from-apache-thrift-to-grpc-a-perspective-from-alluxio/</link>
+      <pubDate>Tue, 19 Jan 2021 06:01:25 +0100</pubDate>
+      
+      <guid>/readings/moving-from-apache-thrift-to-grpc-a-perspective-from-alluxio/</guid>
+      <description>As part of the Alluxio 2.0 release, we have moved our RPC framework from Apache Thrift to gRPC. In this article, we will talk about the reasons behind this change as well as some lessons we learned along the way.
+https://www.alluxio.io/blog/moving-from-apache-thrift-to-grpc-a-perspective-from-alluxio/</description>
+    </item>
+    
+    <item>
+      <title>A Simple Implementation of Filtering Logic in Go</title>
+      <link>/readings/a-simple-implementation-of-filtering-logic-in-go/</link>
+      <pubDate>Tue, 19 Jan 2021 05:52:44 +0100</pubDate>
+      
+      <guid>/readings/a-simple-implementation-of-filtering-logic-in-go/</guid>
+      <description>I’ve come across several cases lately where I need to implement some kind of filtering on a slice of records based on business logic requirements.
+https://medium.com/@zach_johnson/a-simple-implementation-of-filtering-logic-in-go-f45a24413aaf</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Rootless Docker</title>
+      <link>/readings/experimenting-with-rootless-docker/</link>
+      <pubDate>Tue, 19 Jan 2021 05:42:19 +0100</pubDate>
+      
+      <guid>/readings/experimenting-with-rootless-docker/</guid>
+      <description>Docker engine provides lots of great functionality that is often tightly integrated to the features of the Linux kernel. For example, a component of container isolation is based on Linux namespaces. To create namespaces in Linux you need privileged capabilities.
+https://medium.com/@tonistiigi/experimenting-with-rootless-docker-416c9ad8c0d6</description>
+    </item>
+    
+    <item>
+      <title>How to Implement Docker Health Checks</title>
+      <link>/readings/how-to-implement-docker-health-checks/</link>
+      <pubDate>Tue, 19 Jan 2021 05:36:55 +0100</pubDate>
+      
+      <guid>/readings/how-to-implement-docker-health-checks/</guid>
+      <description>You Dockerfile is created, your image built, and you’re ready to roll out to prod. After a quick docker run, your container is up, and you’re eagerly waiting for your app to start serving requests. You wait a few seconds … docker ps reports your container running, but nothing gets served.
+https://medium.com/better-programming/docker-healthchecks-eb744bfe3f3b</description>
+    </item>
+    
+    <item>
+      <title>A theory of modern Go</title>
+      <link>/readings/a-theory-of-modern-go/</link>
+      <pubDate>Mon, 18 Jan 2021 12:50:16 +0100</pubDate>
+      
+      <guid>/readings/a-theory-of-modern-go/</guid>
+      <description>The single best property of Go is that it is basically non-magical. With very few exceptions, a straight-line reading of Go code leaves no ambiguity about definitions, dependency relationships, or runtime behavior.
+https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html</description>
+    </item>
+    
+    <item>
       <title>WWW: What Went Wrong?</title>
       <link>/readings/www-what-went-wrong-/</link>
       <pubDate>Mon, 18 Jan 2021 06:26:22 +0100</pubDate>
@@ -304,6 +523,16 @@ https://martin.kleppmann.com/2015/03/04/turning-the-database-inside-out.html</de
       
       <guid>/readings/anki-powerful-intelligent-flashcards/</guid>
       <description>Anki is a program which makes remembering things easy. Because it&amp;rsquo;s a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn. Anyone who needs to remember things in their daily life can benefit from Anki.
+https://apps.ankiweb.net/</description>
+    </item>
+    
+    <item>
+      <title>powerful, intelligent flashcards</title>
+      <link>/readings/powerful-intelligent-flashcards/</link>
+      <pubDate>Tue, 05 Jan 2021 15:16:54 +0100</pubDate>
+      
+      <guid>/readings/powerful-intelligent-flashcards/</guid>
+      <description>If downgrading from a newer version, please make sure you use the Downgrade &amp;amp; Quit button first. If you are using a 32 bit Windows machine, 2.1.35-alternate is the last Anki release that will work on your system.
 https://apps.ankiweb.net/</description>
     </item>
     
